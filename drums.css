@@ -1,0 +1,224 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("http://www.luisasempere.com/wp-content/uploads/2017/02/amazing-green-high-quality-wallpapers-nature-handmade-premium-material-machine-printing-similar-those-depicted.jpg");
+}
+
+header {
+  background-color: black;
+  height: 20px;
+  border: 2px black solid;
+  color: antiquewhite;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.keys {
+  display: block;
+  flex: auto;
+  margin: 0 auto;
+  margin-top: 0;
+  padding: 25%;
+}
+
+.key {
+  background: rgba(0, 0, 0, 0.4);
+  display: inline-grid;
+  flex: auto;
+  padding: 3px;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: antiquewhite;
+  border: whitesmoke 2px solid;
+  transition: all 0.07s;
+  text-shadow: 5px 5px 5px black;
+}
+
+.playing {
+  border: 2px orange solid;
+  box-shadow: 0 0 10px orange;
+  transform: scale(1.1);
+}
+
+kbd {
+  margin-top: 9px;
+  font-size: 1.4rem;
+  color: goldenrod;
+  text-shadow: 5px 5px 5px black;
+}
+
+#top-row {
+  padding: 3px;
+  text-align: center;
+}
+
+#left-hand {
+  padding: 3px;
+  float: left;
+  text-align: center;
+}
+
+#right-hand {
+  padding: 3px;
+  float: right;
+  text-align: center;
+}
+
+/* Responsive Design */
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .key {
+    width: 20%;
+  }
+}
+
+@media (min-width: 342px) {
+  .key {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 280px) {
+  .key {
+    font-size: 0.4rem;
+  }
+  kbd {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .key {
+    font-size: 0.5rem;
+  }
+  kbd {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 466px) {
+  .key {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 406px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .key {
+    width: 20%;
+  }
+}
+
+@media (max-width: 530px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .key {
+    width: 20%;
+  }
+}
+
+@media (min-width: 610px) {
+  .key {
+    margin-right: 18px;
+  }
+}
+
+@media (min-width: 674px) {
+  .key {
+    margin-right: 25px;
+  }
+}
+
+@media (min-width: 730px) {
+  .key {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 770px) {
+  .key {
+    margin-right: 35px;
+  }
+}
+
+@media (min-width: 810px) {
+  .key {
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 850px) {
+  .key {
+    margin-right: 45px;
+  }
+}
+
+@media (min-width: 890px) {
+  .key {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 930px) {
+  .key {
+    margin-right: 55px;
+  }
+}
+
+@media (min-width: 930px) {
+  .key {
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 1010px) {
+  .key {
+    margin-right: 65px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .key {
+    margin-right: 70px;
+  }
+}
+
+@media (min-width: 1090px) {
+  .key {
+    margin-right: 75px;
+  }
+}
+
+@media (min-width: 1130px) {
+  .key {
+    margin-right: 80px;
+  }
+}
+
+@media (min-width: 1170px) {
+  .key {
+    margin-right: 85px;
+  }
+}
+
+@media (min-width: 1210px) {
+  .key {
+    margin-right: 10px;
+  }
+}
